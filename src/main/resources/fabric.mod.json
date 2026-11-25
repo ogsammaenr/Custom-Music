@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "customdiscs",
+  "version": "${version}",
+  "name": "Custom Discs",
+  "description": "Drag and drop MP3, WAV, or OGG audio files in-game to burn custom multiplayer-synced music discs.",
+  "authors": [
+    "CustomDiscs"
+  ],
+  "license": "MIT",
+  "icon": "assets/customdiscs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.customdiscs.CustomDiscsMod"
+    ],
+    "client": [
+      "com.customdiscs.client.CustomDiscsClient"
+    ]
+  },
+  "mixins": [
+    "customdiscs.mixins.json",
+    {
+      "config": "customdiscs.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
