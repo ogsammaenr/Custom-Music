@@ -1,0 +1,36 @@
+{
+  "item.customdiscs.blank_disc": "Boş Müzik Diski",
+  "item.customdiscs.custom_music_disc": "Özel Müzik Diski",
+  "block.customdiscs.disc_burner": "Plak Yazıcı",
+  "itemGroup.customdiscs.main": "Özel Müzik Diskleri",
+  "container.customdiscs.disc_burner": "Plak Yazıcı",
+
+  "tooltip.customdiscs.blank_disc": "Plak Yazıcıya koy, YouTube linki yapıştır veya ses dosyası sürükle.",
+  "tooltip.customdiscs.empty_disc": "Kayıtsız özel disk",
+  "tooltip.customdiscs.duration": "Süre: %s",
+  "tooltip.customdiscs.track_id": "Parça ID: %s...",
+
+  "gui.customdiscs.youtube_hint": "YouTube linki yapıştır...",
+  "gui.customdiscs.fetch_button": "İndir",
+  "gui.customdiscs.drop_hint": ".mp3 / .wav / .ogg dosyasını buraya sürükle",
+  "gui.customdiscs.drop_hint_compact": "veya .mp3 / .wav / .ogg / .webm sürükle",
+  "gui.customdiscs.drop_selected": "Seçilen: %s",
+  "gui.customdiscs.title_label": "Şarkı Adı",
+  "gui.customdiscs.artist_label": "Sanatçı",
+  "gui.customdiscs.color_label": "Etiket Rengi",
+  "gui.customdiscs.burn_button": "Diske Yaz",
+  "gui.customdiscs.status.idle": "Disk yerleştirip YouTube linki yapıştır.",
+  "gui.customdiscs.status.insert_disc": "Önce slota Boş veya Özel Disk yerleştir.",
+  "gui.customdiscs.status.fetching_youtube": "YouTube'dan ses indiriliyor...",
+  "gui.customdiscs.status.invalid_youtube": "Geçersiz YouTube linki!",
+  "gui.customdiscs.status.encoding": "Ses çözülüyor ve Opus'a dönüştürülüyor...",
+  "gui.customdiscs.status.ready": "Hazır! (%s, %s KB) Diske Yaz'a tıkla.",
+  "gui.customdiscs.status.uploading": "Sunucuya yükleniyor... %%%s",
+  "gui.customdiscs.status.complete": "Müzik diski başarıyla yazıldı!",
+  "gui.customdiscs.status.error": "Hata: %s",
+  "gui.customdiscs.status.unsupported": "Desteklenmeyen format! .mp3, .wav, .ogg, .webm kullan.",
+
+  "jukebox.customdiscs.now_playing": "Şimdi Çalıyor: %s",
+  "jukebox.customdiscs.downloading": "Özel disk müziği indiriliyor...",
+  "jukebox.customdiscs.download_failed": "Özel disk müziği indirilemedi."
+}

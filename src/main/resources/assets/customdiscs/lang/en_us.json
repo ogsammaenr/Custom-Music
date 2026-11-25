@@ -1,0 +1,36 @@
+{
+  "item.customdiscs.blank_disc": "Blank Music Disc",
+  "item.customdiscs.custom_music_disc": "Custom Music Disc",
+  "block.customdiscs.disc_burner": "Disc Burner",
+  "itemGroup.customdiscs.main": "Custom Discs",
+  "container.customdiscs.disc_burner": "Disc Burner",
+
+  "tooltip.customdiscs.blank_disc": "Place in a Disc Burner and paste a YouTube link or drag an audio file.",
+  "tooltip.customdiscs.empty_disc": "Unrecorded custom disc",
+  "tooltip.customdiscs.duration": "Duration: %s",
+  "tooltip.customdiscs.track_id": "Track ID: %s...",
+
+  "gui.customdiscs.youtube_hint": "Paste YouTube link...",
+  "gui.customdiscs.fetch_button": "Fetch",
+  "gui.customdiscs.drop_hint": "Drag & Drop .mp3 / .wav / .ogg here",
+  "gui.customdiscs.drop_hint_compact": "or drag .mp3 / .wav / .ogg / .webm",
+  "gui.customdiscs.drop_selected": "Selected: %s",
+  "gui.customdiscs.title_label": "Title",
+  "gui.customdiscs.artist_label": "Artist",
+  "gui.customdiscs.color_label": "Label Color",
+  "gui.customdiscs.burn_button": "Burn Disc",
+  "gui.customdiscs.status.idle": "Insert a disc & paste a YouTube link.",
+  "gui.customdiscs.status.insert_disc": "Insert a Blank or Custom Disc into the slot first.",
+  "gui.customdiscs.status.fetching_youtube": "Downloading audio from YouTube...",
+  "gui.customdiscs.status.invalid_youtube": "Invalid YouTube link!",
+  "gui.customdiscs.status.encoding": "Decoding & encoding to Opus...",
+  "gui.customdiscs.status.ready": "Ready! (%s, %s KB) Click Burn Disc.",
+  "gui.customdiscs.status.uploading": "Uploading to server... %s%%",
+  "gui.customdiscs.status.complete": "Music disc burned successfully!",
+  "gui.customdiscs.status.error": "Error: %s",
+  "gui.customdiscs.status.unsupported": "Unsupported file! Use .mp3, .wav, .ogg, .webm",
+
+  "jukebox.customdiscs.now_playing": "Now Playing: %s",
+  "jukebox.customdiscs.downloading": "Downloading custom disc audio...",
+  "jukebox.customdiscs.download_failed": "Failed to download custom disc audio."
+}
