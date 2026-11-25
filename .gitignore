@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Fabric & Minecraft runtime
+run/
+logs/
+crash-reports/
+customdiscs_cache/
+customdiscs_tools/
+*.cdopus
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse & VS Code
+.settings/
+.vscode/
+.classpath
+.project
+*.launch
+bin/
+
+# Java logs & diagnostics
+*.log
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
